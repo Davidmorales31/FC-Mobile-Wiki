@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'EASport';
+    src: url('../fonts/EA.ttf') format('truetype');
+    font-weight: 900;
+}
+
+p{
+    font-weight: 900;
+    font-size: 24px;
+    user-select: none;
+    color: #ffffff;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header-left-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-right-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin-right: 60px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.image-FCMobilewiki{
+    width: 100px;
+    height: auto;
+}
+.image-FCMobilewiki-1{
+    width: 100px;
+    height: auto;
+}
+.image-FCMobilewiki3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80px;
+    height: auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    margin: 15px;
+    border: 2px solid transparent;
+}
+
+.icon{
+    width: 70px;
+    height: auto;
+}
+
+.user-info-header{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.NewsIcon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.language-selector {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+}
+
+.language img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+

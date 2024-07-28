@@ -1,0 +1,46 @@
+.Menu-Body{
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    margin: 12px;
+}
+
+.Asides-Content{
+    height: 72vh;
+    margin: 13vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ImageContent{
+    display: flex;
+    width: 45% ;
+    height: 72vh;
+    justify-content: center;
+    align-items: center;
+}
+.image-text{
+    font-size: 14px;
+}
+
+.ImageMenu1{
+    position: absolute;
+    min-width: 80vh;
+}
+
+.ImageMenu2{
+    position: absolute;
+    min-width: 135vh;
+}
+
+.ImageMenu3{
+    position: absolute;
+    min-width: 105vh;
+}
+
+.ImageMenu4{
+    position: absolute;
+    min-width: 110vh;
+}
+
